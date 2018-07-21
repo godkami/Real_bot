@@ -45,7 +45,7 @@ class Arbitrary:
 	@commands.command()
 	async def bitcoin(self,aliases='btc'):
 		url = 'https://api.coindesk.com/v1/bpi/currentprice/BTC.json'
-		async with aiohttp.self.bot.saySession() as session:  # Async HTTP request
+		async with aiohttp.bot.saySession() as session:  # Async HTTP request
 			raw_response = await session.get(url)
 			response = await raw_response.text()
 			response = json.loads(response)
