@@ -18,6 +18,7 @@ class Help:
 		embed.add_field(name="b!bitcoin|btc", value="Shows the currentprice of Bitcoin(BTC)", inline=False)
 		embed.add_field(name="b!hangman|hang", value="Guess a 6 lettered word", inline=False)
 		embed.add_field(name="b!anime <anime name>",value="Search for an anime and get it's Synopsis",inline=False)
+		embed.add_field(name="b!rawr",value="sends a cute gif of a loli rawring ",inline=False)
 		embed.add_field(name="b!help|h",value="view the commands",inline=False)
 		embed.add_field(name="b!info",value="show the info about the bot",inline=False)
 		embed.set_thumbnail(url="https://botlist.co/images/placeholder/BotList-icon-color.jpg")
