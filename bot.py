@@ -4,7 +4,7 @@ import aiohttp
 import json
 import discord
 import time
-import test
+
 import requests
 from discord import Game
 from discord.ext.commands import Bot
