@@ -51,7 +51,7 @@ class Hangman:
 			
 			await self.bot.say("Start guessing" + auth.mention)
 		
-			tr= await bot.wait_for_message(author=auth,channel=ch)
+			tr= await self.bot.wait_for_message(author=auth,channel=ch)
 			guess=tr.content
 		
 			guesses+=guess
