@@ -17,7 +17,7 @@ startup_extensions = ["dict","MAL","hangman","arbitrary","help_info"]
 BOT_PREFIX = ("b!")
 TOKEN = "NDY4NzIyOTI3Njg5MjY5MjUx.DjL5Gw.4rsuVv1TdTFo1yh6uacm31O8Tjs"  # Get at discordapp.com/developers/applications/me
 
-bot = Bot(command_prefix="BOT_PREFIX")
+bot = Bot(command_prefix=BOT_PREFIX)
 @bot.command()
 async def load(extension_name : str):
     """Loads an extension."""
