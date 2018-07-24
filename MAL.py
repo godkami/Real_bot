@@ -39,7 +39,7 @@ class MAL:
 	
 		embed.set_image(url=imag)
 		embed.add_field(name="Score:",value=res_4)
-		embed.add_field(name="Link to site",value=v)
+		embed.add_field(name="Link to site",value="[**Click here**]({})".format(v))
 		embed.set_footer(text="Sourced from MyAnimeList(MAL)", icon_url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9kgrRYpaVc53JFQ6iDuPN5eDMuTDFVr05ChTAg52_nEYMh1it")
 	
 		embed.set_thumbnail(url="https://botlist.co/images/placeholder/BotList-icon-color.jpg")
